@@ -755,7 +755,7 @@ WeakAuras.event_prototypes = {
       return UnitMana(trigger.unit), math.max(1, UnitManaMax(trigger.unit)), "fastUpdate";
     end,
     automatic = true
-  }
+  },
   -- Todo: Give useful options to condition based on GUID and flag info
   -- Todo: Allow options to pass information from combat message to the display?
   ["Combat Log"] = {
